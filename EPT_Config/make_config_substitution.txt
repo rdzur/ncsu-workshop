@@ -1,0 +1,1 @@
+for i in $(cat json_64_list.txt) ; do sed -i '' 's/Hardware_Checkpoint\///g' $i ; done
