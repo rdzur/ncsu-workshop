@@ -31,7 +31,7 @@ Specific Anaconda environment for object detection and point cloud colorization 
 4. Point Cloud Colorization, and
 5. EPT Visualization
 
-This environment is described in the following getting started material `GettingStarted.pdf`.
+This environment is described in the following getting started material [GettingStarted.pdf](GettingStarted.pdf).
 
 ## Citations
 
