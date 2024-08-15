@@ -21,7 +21,7 @@ Data for this TEM represent a small subset of larger [NOAA](https://chs.coast.no
 
 The object detection model in this TEM exercise was developed to predict remnant buildings in ground classified bare-earth LiDAR digital elevation models (DEM).  Traditional automated LiDAR classification routines for ground filtering may result in buildings of varying configurations being left in the terrain surface.  Despite visual inspection and review, these situations (buildings / structures) can be at times difficult to identify, reclassify and thus remove from the ground surface.  Training data for the model was developed from QL 2 LiDAR-based DEM data over southern New Mexico high-desert terrain represented as Sky View Factor (SVF) imagery through the the Relief Visualization Toolboox (RVT).  The YOLOv8 model was developed on a 4-GPU system using 676 annotated training images, another 84 images for testing and 76 images for model validation. 
 
-## Environments
+## Environment
 
 Specific Anaconda environment for object detection and point cloud colorization was created for tasks related to:
 
@@ -31,7 +31,7 @@ Specific Anaconda environment for object detection and point cloud colorization 
 4. Point Cloud Colorization, and
 5. EPT Visualization
 
-These environments are described in the header material of the respective Jupyter Notebooks.
+This environment os described in the following getting started material `GettingStarted.pdf`.
 
 ## Citations
 
