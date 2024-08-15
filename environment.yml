@@ -1,0 +1,17 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - gdal
+  - geopandas
+  - ipyleaflet
+  - matplotlib
+  - notebook
+  - pdal
+  - pip
+  - python-pdal
+  - pyproj
+  - requests
+  - rioxarray
+  - entwine
+  - nodejs
