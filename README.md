@@ -6,8 +6,9 @@
 
 1. Object detection with [YOLOv8](https://github.com/ultralytics/ultralytics) (YOLO (You Only Look Once)).
 2. Point cloud visualization with [Entwine](https://entwine.io/en/latest/).
+3. Data analysis for derivative feature extraction with [GRASS GIS](https://grass.osgeo.org).
 
-A set of Jupyter Notebooks have been developed to illustrate some production methods and techniques under development at [Bohannan Huston, Inc. (BHI)](https://www.bhinc.com).  These techniques are primarily for data quality assessment and assurance of large (multiple billion) airborne-collected point cloud datasets.  Point cloud visualization methods are applied in all BHI Airborne LiDAR, Mobile LiDAR, Terrestrial Laser Scanning, and UAS LiDAR point cloud projects.
+A set of Jupyter Notebooks have been developed to illustrate some production methods and techniques under development at [Bohannan Huston, Inc. (BHI)](https://www.bhinc.com).  These techniques are primarily for data quality assessment and assurance of large (multiple billion) airborne-collected point cloud datasets.  Point cloud visualization methods are applied in all BHI [Airborne LiDAR](https://potree.bhinc.com/data/view.html?r=%22https://entwine.bhinc.com/nnd12_lidar_rgb%22), [Mobile LiDAR](https://potree.bhinc.com/data/view.html?r=[%22https://entwine.bhinc.com/coh_mls%22,%22https://entwine.bhinc.com/coh_ppc%22,%22https://entwine.bhinc.com/coh_lidar_rgb%22]), Terrestrial Laser Scanning, and [UAS LiDAR](https://potree.bhinc.com/data/view.html?r=%22https://entwine.bhinc.com/North_Domingo_Baca_Dam_rgb%22) point cloud projects.
 
 ## Data
 
