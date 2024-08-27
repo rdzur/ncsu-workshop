@@ -1,4 +1,5 @@
 import os
+import requests
 import csv
 import glob
 import time
@@ -7,9 +8,36 @@ import multiprocessing as mp
 from concurrent.futures import ProcessPoolExecutor
 from itertools import repeat
 
-def download_file(url,out_fld):
-    command = f"wget -P {out_fld} -np -nd -r -nH -L {url}"
-    os.system(command)
+# def download_file(url,out_fld):
+#     command = f"wget -P {out_fld} -np -nd -r -nH -L {url}"
+#     os.system(command)
+
+def download_file(url, out_fld):
+    try:
+        # Extract the filename from the URL
+        filename = os.path.basename(url)
+        
+        # Create the full path for the output file
+        output_path = os.path.join(out_fld, filename)
+        
+        # Send a GET request to the URL
+        response = requests.get(url, stream=True)
+        
+        # Check if the request was successful
+        response.raise_for_status()
+        
+        # Write the content to a file
+        with open(output_path, 'wb') as file:
+            for chunk in response.iter_content(chunk_size=8192):
+                if chunk:
+                    file.write(chunk)
+        
+        print(f"Successfully downloaded: {filename}")
+        return True
+    except Exception as e:
+        print(f"Error downloading {url}: {str(e)}")
+        return False
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

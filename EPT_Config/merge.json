@@ -1,5 +1,5 @@
 {
-    "output": "/Users/rdzur/Documents/TEM/NC_P3_2015_Coleridge_SE/entwine/NC_P3_2015_Coleridge_SE_rgb", 
+    "output": "../entwine/NC_P3_2015_Coleridge_SE_rgb", 
     "tmp": "/tmp",
     "threads": 6
 }
