@@ -1,3 +1,4 @@
+name: ncsu-workshop
 channels:
   - conda-forge
   - defaults
@@ -16,10 +17,10 @@ dependencies:
   - entwine
   - nodejs
   - numpy=1.26.4
+  - m2-base
   - pip:
     - ultralytics
     - rvt-py
     - laspy[lasrs,laszip]
     - fiona
-    # - m2-base
-    # - pip install torch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 --index-url https://download.pytorch.org/whl/cpu
+    - -r ".\requirements.txt"
