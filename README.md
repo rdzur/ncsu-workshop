@@ -1,5 +1,8 @@
 # Technical Exchange Meeting (TEM)
 
+**Exploring open-source object detection and visualization methods in an expanding big data era.**  
+An interactive session designed as part of the North Carolina State University Geospatial Forum Studio series, September 6, 2024.
+
 ## Abstract
 
 **TEM** material was developed to share applied concepts in:  
@@ -38,6 +41,14 @@ This environment is described in the following getting started material [Getting
 ## Citations
 
 [RVT Python library](https://github.com/EarthObservation/RVT_py/tree/master) by Žiga Kokalj, Žiga Maroh, Krištof Oštir, Klemen Zakšek and Nejc Čož, 2022.
+
+Ultralytics by Jocher, G., Chaurasia, A., & Qiu, J. (2023). Ultralytics YOLO (Version 8.0.0) [Computer software]. https://github.com/ultralytics/ultralytics
+
+PDAL https://doi.org/10.5281/zenodo.10884408
+
+GRASS GIS https://doi.org/10.5281/zenodo.13102854
+
+
 
 ## Contacts
 
