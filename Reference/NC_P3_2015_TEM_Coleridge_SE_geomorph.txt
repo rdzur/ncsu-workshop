@@ -1,0 +1,12 @@
+# QGIS color map for GRASS GIS r.geomorphon
+INTERPOLATION:EXACT
+1,220,220,220,255,flat
+2,56,0,0,255,peak
+3,200,0,0,255,ridge
+4,255,80,20,255,shoulder
+5,250,210,60,255,spur
+6,255,255,60,255,slope
+7,180,230,20,255,hollow
+8,60,250,150,255,footslope
+9,0,0,255,255,valley
+10,0,0,56,255,pit
